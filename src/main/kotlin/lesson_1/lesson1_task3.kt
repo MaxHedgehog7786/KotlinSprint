@@ -12,6 +12,6 @@ fun main() {
     minute = "55"
     print(hour)
     print(":")
-    print(minute)
+    println(minute)
 
 }
