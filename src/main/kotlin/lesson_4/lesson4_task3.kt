@@ -6,7 +6,8 @@ fun main() {
     val humidityToday = 20
     val seasonToday = "winter"
 
-    println("Благоприятные ли условия сейчас для роста бобовых? ${sunToday == IS_SUNNY && openedToday == IS_OPENED && humidityToday == HUMIDITY && seasonToday != BAD_SEASON}")
+    println("Благоприятные ли условия сейчас для роста бобовых? ${sunToday == IS_SUNNY && openedToday == IS_OPENED && 
+            humidityToday == HUMIDITY && seasonToday != BAD_SEASON}")
 }
 
 const val IS_SUNNY = true
