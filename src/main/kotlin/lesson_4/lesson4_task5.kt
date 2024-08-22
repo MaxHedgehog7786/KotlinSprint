@@ -14,7 +14,9 @@ fun main() {
     println("Метеоусловия благоприятны? (true/false)")
     val weather = scanner.nextBoolean()
 
-    println("Взлет разрешен: ${(condition == IS_DAMAGED && crewCount in MIN_CREW..MAX_CREW && provisionCount > MIN_PROVISION) || (crewCount == MAX_CREW && weather == IS_GOOD_WEATHER && provisionCount >= 50)}")
+    println("Взлет разрешен: ${(condition == IS_DAMAGED && 
+            crewCount in MIN_CREW..MAX_CREW && provisionCount > MIN_PROVISION) 
+            || (crewCount == MAX_CREW && weather == IS_GOOD_WEATHER && provisionCount >= 50)}")
 }
 
 const val IS_DAMAGED = false
