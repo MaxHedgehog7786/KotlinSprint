@@ -4,8 +4,8 @@ fun main() {
     val reservedTablesToday = 13
     val reservedTablesTomorrow = 9
 
-    println("Доступность столиков на сегодня: ${reservedTablesToday< COUNT_OF_TABLES}")
-    println("Доступность столиков на завтра: ${reservedTablesTomorrow< COUNT_OF_TABLES}")
+    println("Доступность столиков на сегодня: ${reservedTablesToday < COUNT_OF_TABLES}")
+    println("Доступность столиков на завтра: ${reservedTablesTomorrow < COUNT_OF_TABLES}")
 }
 
 
