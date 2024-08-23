@@ -8,7 +8,7 @@ fun main() {
     val todayYear = Calendar.getInstance().get(Calendar.YEAR)
     val userAge = todayYear - userBirthYear
 
-    if (userAge >= MIN_AGE){
+    if (userAge >= MIN_AGE) {
         println("Показать экран со скрытым контентом")
     } else {
         println("Доступ запрещен")
